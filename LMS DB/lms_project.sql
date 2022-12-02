@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 02, 2022 at 09:08 AM
+-- Generation Time: Dec 02, 2022 at 09:53 AM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 7.4.29
 
@@ -62,10 +62,9 @@ CREATE TABLE `teachers` (
 --
 
 INSERT INTO `teachers` (`id`, `name`, `description`, `image`) VALUES
-(5, 'John', 'Very good web developer.', 'image/1.jpg'),
+(5, 'John', 'Very good web developer and a great lecturer in hi', 'image/1.jpg'),
 (6, 'Bernice', 'Very good graphic design lecturer.', 'image/2.jpg'),
-(7, 'Kumar', 'Great Digital marketing specialist and lecturer.', 'image/3.webp'),
-(11, 'Smiley', 'Very nice smile. And cool shades              ', 'image/4.jpg');
+(7, 'Kumar', 'Great Digital marketing specialist and lecturer.', 'image/3.webp');
 
 -- --------------------------------------------------------
 
@@ -90,7 +89,8 @@ INSERT INTO `user` (`id`, `username`, `phone`, `email`, `usertype`, `password`) 
 (1, 'admin', 730005005, 'admin@e-school.com', 'admin', '12345678'),
 (7, 'Ryno', 27655232068, 'ryno@e-school.com', 'student', '12345'),
 (10, 'Michael1', 81815469512, 'micky@disney.com', 'student', '12345'),
-(11, 'Danny', 27826543874, 'danny@e-schools.com', 'student', '123456');
+(11, 'Danny', 27826543874, 'danny@e-schools.com', 'student', '123456'),
+(12, 'student', 27655232068, 'student@e-schools.com', 'student', '12345678');
 
 --
 -- Indexes for dumped tables
@@ -134,7 +134,7 @@ ALTER TABLE `teachers`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
