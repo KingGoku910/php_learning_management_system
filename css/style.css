@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+nav {
+    position: fixed;
+    background-color: gray;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo { 
+    font-size: 35px;
+    position: relative;
+    left: 5%;
+    color: white;
+    font-weight: bold;
+    line-height: 70px;
+ }
+
+ ul {
+    position: relative;
+    float: right;
+    margin-right: 50px;
+ }
+
+ ul li {
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+ }
+
+ ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+ }
+
+ .main_img {
+    width: 100%;
+    height: 300px;
+
+ }
+
+ .section1 {
+    padding-top: 70px;
+ }
+
+ .img_text {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    color: black;
+    background-color: lightgray;
+    font-size: 35px;
+    font-weight: bold;
+ }
+
+ .container {
+    padding-top: 50px;
+ }
+
+ .welcome_img {
+    width: 100%;
+    height: 250px;
+ }
+
+ .teacher {
+    width: 90%;
+    height: 300px;
+ }
+
+ .courses {
+    width: 90%;
+    height: 300px;
+ }
+
+ .label_text {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    padding-right: 10px;
+ }
+
+ .input_deg {
+    width: 50%;
+    height: 40px;
+    border-radius: 15px;
+    border: 2px solid grey;
+ }
+
+ .input_txt {
+    width: 50%;
+    height: 120px;
+    border-radius: 15px;
+    border: 2px solid grey;
+ }
+
+ .adm_int {
+    padding-top: 10px;
+ }
+ #submit {
+    position: relative;
+    width: 15%;
+    left: 5%;
+ }
+
+ footer {
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 15px;
+    
+ }
+ 
+ .footer_text {
+    text-align: center;
+    color: white;
+    top: 20%;
+    position: relative;
+ }
+
+ /*
+ Styling for the login Page
+ */
+
+ .body_deg {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+ }
+
+ .form_deg {
+    padding-top: 200px;
+
+ }
+
+ .label_deg {
+    display: inline-block;
+    color: black;
+    width: 100px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+
+ .login_form {
+    background-color: lightgray;
+    width: 400px;
+    padding-top: 70px ;
+    padding-bottom: 70px;
+    font-weight: bold;
+ }
+
+ .title_deg {
+    background-color: black;
+    text-align: center;
+    color: whitesmoke;
+    width: 400px;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 25px;
+ }
+
+ 
