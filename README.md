@@ -1,4 +1,4 @@
-# PHP_Proficiency_Assessment
+# PHP LMS System
 I built Learning Management System with HTML, CSS, BOOTSTRAP, mySQL and PHP.
 
 ## General Instruction:
